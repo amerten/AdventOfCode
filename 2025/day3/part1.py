@@ -1,0 +1,1 @@
+print(sum(max(map(int, [bank[i] + bank[j] for i in range(len(bank) - 1) for j in range(i + 1, len(bank))])) for bank in open(0).read().splitlines()))
